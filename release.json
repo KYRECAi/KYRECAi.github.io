@@ -1,0 +1,674 @@
+{
+  "game": "moneybags",
+  "source": "KYRECAi/moneybags-bonus@683bff1ee5f3c3b2afafac590c377fef369ecba7",
+  "baseSource": "KYRECAi/moneybags-bonus@37ba075a4a98f1cd978bab4d837dc652987ad7f9",
+  "arcadeProtocol": 1,
+  "mode": "arcade",
+  "familyPointsAuthority": false,
+  "assets": [
+    {
+      "path": "art/bg-super.jpg",
+      "sha256": "d4b204c3c5aae8d23ff3a00c53511b7bc46d5598e88ffb8ebcd06ff08c7247a5"
+    },
+    {
+      "path": "art/bg-ultra.jpg",
+      "sha256": "76fa1cf35a7ae959f3ac96aff713e2176425e258e5b6c825883da79acd84d62e"
+    },
+    {
+      "path": "art/bg.jpg",
+      "sha256": "9be2919cd37e10e7d02efecd6fc41bfd642bb83d78b84d5c7d2bd944f4e9e4fe"
+    },
+    {
+      "path": "art/coin.png",
+      "sha256": "7a45c949a11796c6c0ce2c6dff2ce422117f703e98ca988ee30d200cb5ca247a"
+    },
+    {
+      "path": "art/gem.png",
+      "sha256": "0499c29437b48fc5119bc3674ea555aedd1b3def1a4a7f94468011b7ea394ff2"
+    },
+    {
+      "path": "art/jackpot.png",
+      "sha256": "0499c29437b48fc5119bc3674ea555aedd1b3def1a4a7f94468011b7ea394ff2"
+    },
+    {
+      "path": "art/locked/celebrate.png",
+      "sha256": "72324087fbed62284ad86dce3fe1d2b6a72e4b051a1f5eebad3197a31c4d0620"
+    },
+    {
+      "path": "art/locked/fire.png",
+      "sha256": "dff6392b7bee5270daabb67cf55f57351b743c319e7b51fb20f8a5a989736a45"
+    },
+    {
+      "path": "art/locked/idle.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "art/locked/pulse.png",
+      "sha256": "b2de4f4348a723754b5713d066ffbf5b92a534ed1a74b46ad6252c23ed6742f1"
+    },
+    {
+      "path": "art/locked/smirk.png",
+      "sha256": "6f392933d8cc2e3bd5f0ae71025f9322ff1035fffd47d0badfd1b9638d2a9ded"
+    },
+    {
+      "path": "art/locked/win.png",
+      "sha256": "c6aac486cce8b04b3fa2b56982b9f13574e697bbfc5a56e53fb22d58f59f6c6f"
+    },
+    {
+      "path": "art/mascot-fire.png",
+      "sha256": "d448168b72203c2b9772b507396c4804f077e490ca79a816b61eee659b8adb88"
+    },
+    {
+      "path": "art/mascot-idle.png",
+      "sha256": "cde927c4ed706b3bd9129939551522577f9a5fd8b945f3de6f21e8e5377afd89"
+    },
+    {
+      "path": "art/mascot-smirk.png",
+      "sha256": "b9080fe1d060158397df89175242520c6ff04eb5e542c5a3c5e3a866735f2f93"
+    },
+    {
+      "path": "art/mascot-win.png",
+      "sha256": "640391530dd5d7fff2d332e4da78aaaf0a1cc38b975f4e3c07ae017f75916ad3"
+    },
+    {
+      "path": "art/moneybags.png",
+      "sha256": "d341b93b0f1eb9d74a7af09a2e59d21c18a755a6452729d74c9c7c631d9ac29d"
+    },
+    {
+      "path": "art/nova.png",
+      "sha256": "357a301782ba5a4ea32d6fa73020619708f4a10e23f60b23c8f6926d1e140290"
+    },
+    {
+      "path": "art/play/nova.png",
+      "sha256": "7fd669fdfc2ba44e83369b490f31a9c78e1f699d1fa0f2505a432a7b4a5226bd"
+    },
+    {
+      "path": "art/play/pulse.png",
+      "sha256": "7443461beade1f6fb82418f592f21e288e0bcddda129abc30e96cf0dc7681394"
+    },
+    {
+      "path": "art/play/stan.png",
+      "sha256": "596e3673d9313110a1e8830f7a33a6ff58d13fe69ab65957d15f6ce4ca90811e"
+    },
+    {
+      "path": "art/pulse.png",
+      "sha256": "950d746abe98bc3ed031f975ac80b4416ea0a3f24d7fb0d3c833901716fd5369"
+    },
+    {
+      "path": "art/scout.png",
+      "sha256": "bf7e12f155e2ecbb9eeade8b6dcd53f88ecc1ba358aa676a52094d791d17d4ee"
+    },
+    {
+      "path": "art/silhouette-2.png",
+      "sha256": "1337112fcce72f7a9f03b6bc2f5be03e2dab59ac00ba3dc2fdecb32e47dcf60a"
+    },
+    {
+      "path": "art/silhouette.png",
+      "sha256": "4aab27d5d8cd508f945b710bf4194bb9bf93d188fa7527711fdb0b0a2bb91abf"
+    },
+    {
+      "path": "art/stan.png",
+      "sha256": "ccfbff4c43f681962c43b5af474e6c1fea61d43bf7c9ea4a5fff7392c3143206"
+    },
+    {
+      "path": "sprites/bags/bust-1.png",
+      "sha256": "3315c6d405abcb7e96b515eca44bb9927f3f4f54a1d1cfcc94c2b91b701c413e"
+    },
+    {
+      "path": "sprites/bags/bust-2.png",
+      "sha256": "5a924ba2157306f4ac9eb40188b519f7c7e25588d084873db04524a20d25f89c"
+    },
+    {
+      "path": "sprites/bags/bust-3.png",
+      "sha256": "6139f5ff58fc08329be9e99c113e4d7bb4280312133b2c811bd7c576604ef8eb"
+    },
+    {
+      "path": "sprites/bags/bust-4.png",
+      "sha256": "695f5a2bb961db6deb6f8e65784f7502d106adcca7f6cf3e66a80f7531c8141a"
+    },
+    {
+      "path": "sprites/bags/gold-1.png",
+      "sha256": "db0f6f3075eae52683dd4b760dd98d60cdd12f33bcb9533dde69c1653e54f139"
+    },
+    {
+      "path": "sprites/bags/gold-2.png",
+      "sha256": "850e3de59211ba34f7744a33ef119cb0c57daa7b08680721a1ce43be0ca67e4e"
+    },
+    {
+      "path": "sprites/bags/gold-3.png",
+      "sha256": "e4320343f41b6fac178af0ba7e35646c4d2be5ef36c5987a3a8e0cc90245b5ca"
+    },
+    {
+      "path": "sprites/bags/gold-4.png",
+      "sha256": "8276327a6e5f7a127f685f358f0827c8d363691fd1a38fea5208e27bedae4ead"
+    },
+    {
+      "path": "sprites/drone/1.png",
+      "sha256": "f6bb0a56231318fa7612f384f9616599db0977c4f06df015d31ea9bf6cdc63b5"
+    },
+    {
+      "path": "sprites/drone/2.png",
+      "sha256": "a15f72490878c417300efcd7caf51886a4e354954b623b3593b3b8df53d7d942"
+    },
+    {
+      "path": "sprites/drone/3.png",
+      "sha256": "0b18952b91e59bf14d26490e7f657540ba84b1d92f48a87ee18947f26488deaa"
+    },
+    {
+      "path": "sprites/drone/4.png",
+      "sha256": "f4e575ac893ceee9c08e374a77b7adc2c156ec48d3a27bc1058ae2a3ed1585b7"
+    },
+    {
+      "path": "sprites/fx/spark-1.png",
+      "sha256": "f15d30abc283c830183038d9092525cb270ecee67d32626d489c8be2d5fb22b5"
+    },
+    {
+      "path": "sprites/fx/spark-2.png",
+      "sha256": "250b379387901bb9bc47de52b96b96e4d7082f22af4deb3a0cb691b1cf066369"
+    },
+    {
+      "path": "sprites/fx/spark-3.png",
+      "sha256": "02a8250c1628c7a3e2b245c4971dc0eb1ce9270602475bd01a090d70fca94e6e"
+    },
+    {
+      "path": "sprites/fx/spark-4.png",
+      "sha256": "d69077985375403880d9c392f46cee199a023a1f9f7dd298eccd789512af3bda"
+    },
+    {
+      "path": "sprites/moneybags/coin-1.png",
+      "sha256": "3719c6baa262740678d32e799fc0eeb8e0137fa3ac7dca50205cd7a78bd16f53"
+    },
+    {
+      "path": "sprites/moneybags/coin-2.png",
+      "sha256": "0cbf5edf26dec4e8486e1ef4280da9c7b59b4d3085a98d48418eb557c5422645"
+    },
+    {
+      "path": "sprites/moneybags/coin-3.png",
+      "sha256": "3719c6baa262740678d32e799fc0eeb8e0137fa3ac7dca50205cd7a78bd16f53"
+    },
+    {
+      "path": "sprites/moneybags/coin-4.png",
+      "sha256": "a0d42ddbf8141edd61396043b7789a8fd23fed9be911565fab15a600af896cdd"
+    },
+    {
+      "path": "sprites/moneybags/fire-1.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/fire-2.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/fire-3.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/fire-4.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/idle-1.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/idle-2.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/idle-3.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/idle-4.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-1.png",
+      "sha256": "b9f7942ad9493f1055ce7c707f393255974be6da7f0803f349d5d5b2771709ed"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-2.png",
+      "sha256": "5c00de9c78006ecf9e7b327219990d35a432643664bf8a1a9d501cb89b7d1cf5"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-3.png",
+      "sha256": "b9f7942ad9493f1055ce7c707f393255974be6da7f0803f349d5d5b2771709ed"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-4.png",
+      "sha256": "966640847d211de51eedb0fd2ace2bbd33251dba2b023c7425a7ca9f73091763"
+    },
+    {
+      "path": "sprites/moneybags/smirk-1.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/smirk-2.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/smirk-3.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/smirk-4.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/spark-1.png",
+      "sha256": "161a6eb76b1ea789ce304a96cd59cbd693567329b20cc822a8e43a3cc96db60b"
+    },
+    {
+      "path": "sprites/moneybags/spark-2.png",
+      "sha256": "f400b7aebb0f0e1aa49f132b8fe467f6e8c027fbbc650eff7355710f9e868b29"
+    },
+    {
+      "path": "sprites/moneybags/spark-3.png",
+      "sha256": "e8e79c80e587a90b944f2cfefbe02d48479746361a2b84742ac9ff3e3bd20661"
+    },
+    {
+      "path": "sprites/moneybags/spark-4.png",
+      "sha256": "a5acb77bd9be4ce2511fa09a0a7a90d12f66b60f0a4de80a86458d2926e3465d"
+    },
+    {
+      "path": "sprites/moneybags/win-1.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/win-2.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/win-3.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/moneybags/win-4.png",
+      "sha256": "0d0a46ff02a33bd22bcc0345114f80c7c388a622e7543bf69f28ab68f155c1a5"
+    },
+    {
+      "path": "sprites/monty/idle-1.png",
+      "sha256": "56213993be046447295f949ad5dd77955675f268caa0593a6583e6bd54a2730c"
+    },
+    {
+      "path": "sprites/monty/idle-2.png",
+      "sha256": "9945a747f989d445b8f1f2780aef359eec55f91cb61e72dbcd68e976ff00c191"
+    },
+    {
+      "path": "sprites/monty/idle-3.png",
+      "sha256": "c199bcccd84a292690c09bbfb3d67b25c035c874e10cafa7cb9ac7cbcd4289f6"
+    },
+    {
+      "path": "sprites/monty/idle-4.png",
+      "sha256": "c47bbcf8fd216f2f6459dc475e91c96e11d84e3ba0537aa6a29e84d0cec9c000"
+    },
+    {
+      "path": "sprites/monty/idle.gif",
+      "sha256": "8d564843eea5b02d7e1f08399e3d24b09e27a6681ffb913adcac314f84ea4d54"
+    },
+    {
+      "path": "sprites/monty/jump-1.png",
+      "sha256": "329b15cbc3c095d53cea8c366f437b6ea775d41993117536196f8245ac73257c"
+    },
+    {
+      "path": "sprites/monty/jump-2.png",
+      "sha256": "840d1115bfe9cd80e5edd3b8ab9883da4571698c2ef337cf8ba238fa14188fcc"
+    },
+    {
+      "path": "sprites/monty/jump-3.png",
+      "sha256": "aa39e37d5eedfd280eb87cc867a01cb9e1edbe4c5baf1d006159c4aee5305513"
+    },
+    {
+      "path": "sprites/monty/jump-4.png",
+      "sha256": "bdeb2ba7e7c41226c211778a6dce66016faa0faa5265f93cd6bcfb4210da65d7"
+    },
+    {
+      "path": "sprites/monty/run-1.png",
+      "sha256": "c7e62a8cd68ea8641f22b1f6b932ab108dc6df277f6800f7b2bc4a8742efe141"
+    },
+    {
+      "path": "sprites/monty/run-2.png",
+      "sha256": "dd38d7e6e23f018dc9f350d816e3accd9f9c9db49c03ce6acaaa3fe1d88301b9"
+    },
+    {
+      "path": "sprites/monty/run-3.png",
+      "sha256": "44235ef462aaee96333532aeb5a2893b73f6db8eac9718b7232b6f30b5941ba0"
+    },
+    {
+      "path": "sprites/monty/run-4.png",
+      "sha256": "11d20bfc27c7a55e4416c5e54ba09748bc765d17322e3df03eddd78b1c83f5c2"
+    },
+    {
+      "path": "sprites/monty/run-5.png",
+      "sha256": "2b98a7cc927d93f8f6a40903cedaf718bdc1dbf4d2d8b83b29e86b3f4b410546"
+    },
+    {
+      "path": "sprites/monty/run-6.png",
+      "sha256": "f9b22b11b6a9cb1816519b949a92ac7fcfb80b82b210cd0623ef4c3842b13647"
+    },
+    {
+      "path": "sprites/nova/idle-1.png",
+      "sha256": "266119680136302e75480a66d379be7269938efb40fcbb1cd41883ecff4230a2"
+    },
+    {
+      "path": "sprites/nova/idle-10.png",
+      "sha256": "7c5256f175a0c386d4d5e00a673bc59e8b153e4e724a2f6fef21cd4c4f970de1"
+    },
+    {
+      "path": "sprites/nova/idle-11.png",
+      "sha256": "224423181bb1fc674e2031d5922ab7f1b17a6ab3b828ee177a5b2602764d0e28"
+    },
+    {
+      "path": "sprites/nova/idle-12.png",
+      "sha256": "d8a0847403fde9e181665cc785e67891b39695a7478cc0d1f16b3e51e5d5fc35"
+    },
+    {
+      "path": "sprites/nova/idle-2.png",
+      "sha256": "32b2bd899d925f0ca02c0cfa9eb57b16a86d9c9d5181e3e4a58aed5db6301f04"
+    },
+    {
+      "path": "sprites/nova/idle-3.png",
+      "sha256": "7d9ce8544e8c8c5fd239a7eb02ad6c7a2fe3eff6722ab973fb14b9ec6767cfc5"
+    },
+    {
+      "path": "sprites/nova/idle-4.png",
+      "sha256": "d0dc078751e2ded0959696a12bd09cb6e6938f3a19c8dd18e93d34b814232ff5"
+    },
+    {
+      "path": "sprites/nova/idle-5.png",
+      "sha256": "3ef22343fb2b4a1c55ae6c934b1e3cd9f9f04a42ac617fea79728812edba84d1"
+    },
+    {
+      "path": "sprites/nova/idle-6.png",
+      "sha256": "4129112c5c1349d7ea646c021dcf140b43302be08c70e971f8dbbb3da17aad4d"
+    },
+    {
+      "path": "sprites/nova/idle-7.png",
+      "sha256": "2c0a0f34200a43483bcef6bab740c0442b20d2358519804cfdaa2c856d1f4149"
+    },
+    {
+      "path": "sprites/nova/idle-8.png",
+      "sha256": "d8f237eade7b5c2eede64791645b18e12316c32a316c94974950d770dd17f1d3"
+    },
+    {
+      "path": "sprites/nova/idle-9.png",
+      "sha256": "1c0a99fc3de4d461862597c54b85fa722a2b7267a04fdbfdf99dfdfafc3c0ae5"
+    },
+    {
+      "path": "sprites/pulse/idle-1.png",
+      "sha256": "e8022617fd1b813d92ffa8c0a49387f380e9c132e36b2c88f1c25ed4fa77eb32"
+    },
+    {
+      "path": "sprites/pulse/idle-10.png",
+      "sha256": "4dd69e43c0a9fbf8e9635fccb9992fd1d3b6d41fe9657011e54610fd14f6f9c4"
+    },
+    {
+      "path": "sprites/pulse/idle-11.png",
+      "sha256": "6fcf6c16005fa7d7c4fe800a9ad41fe2d1464bf8717893facce20477b90674bb"
+    },
+    {
+      "path": "sprites/pulse/idle-12.png",
+      "sha256": "eb36e6352a83723ce854f6bb326d028333c52b853e49ac9b589619820f3874dc"
+    },
+    {
+      "path": "sprites/pulse/idle-2.png",
+      "sha256": "72901abbc6b13008f21cede27dea2019f859bc129cd8ff8c5feee7b2c1b6bd16"
+    },
+    {
+      "path": "sprites/pulse/idle-3.png",
+      "sha256": "104d072805e1b7497aefb015c5cc62e3f38d8b0109dcecba7ab48186344df425"
+    },
+    {
+      "path": "sprites/pulse/idle-4.png",
+      "sha256": "a975a6724087d0268281a6a874326867a2980f41f44493bb74d48e5337cff1e9"
+    },
+    {
+      "path": "sprites/pulse/idle-5.png",
+      "sha256": "96548a107447437d64d3d9bfe41d7e6efd074231b5d047f98b3aab8bec29bf81"
+    },
+    {
+      "path": "sprites/pulse/idle-6.png",
+      "sha256": "65785e8286761b29b1c82804025004e0e6594fb69ded8b93c02dd37da6dccca4"
+    },
+    {
+      "path": "sprites/pulse/idle-7.png",
+      "sha256": "7ed80b96ee61f708fb3336aff64ac983cf77fb67fcbeb6b3d5787eaf3ae4d055"
+    },
+    {
+      "path": "sprites/pulse/idle-8.png",
+      "sha256": "21ced3327ae5e03ef283df8f21cb06349e51cd824bd5464163b03f95e140d789"
+    },
+    {
+      "path": "sprites/pulse/idle-9.png",
+      "sha256": "32f65dcff88265a2cd74f1891958c34b9de36ef0dd097b6addc34cc65af08e15"
+    },
+    {
+      "path": "sprites/stan/idle-1.png",
+      "sha256": "8ae177c089efa595fffd9ade877f7ee59007ef4033928a2e6de6ebb5d96c2b81"
+    },
+    {
+      "path": "sprites/stan/idle-10.png",
+      "sha256": "9e7ac338ddc3ed09e70a623efe7ee8fd435f2125fc7afe7fd9fbc505293041e4"
+    },
+    {
+      "path": "sprites/stan/idle-11.png",
+      "sha256": "6631cd7b9e7ff370f0b43c2661c964e5bfa2014ffea16e3a88af8f0fca54ad9b"
+    },
+    {
+      "path": "sprites/stan/idle-12.png",
+      "sha256": "faade11073df776fa37f8cc6da3882b498943c1a325a940cfdd685532d78ed46"
+    },
+    {
+      "path": "sprites/stan/idle-2.png",
+      "sha256": "2ec322157cbb866f871423afed723eb8964f1f76c1338302c58f6139db2285e1"
+    },
+    {
+      "path": "sprites/stan/idle-3.png",
+      "sha256": "d30e1a3b6c7a88fc33a60ae98cdf06a6faccebc3f6e19dc973603bcd91eb2124"
+    },
+    {
+      "path": "sprites/stan/idle-4.png",
+      "sha256": "7861376d16767ee8b132dbeadd1209caafbac851fb6cd9bec83ccaefdf780dcf"
+    },
+    {
+      "path": "sprites/stan/idle-5.png",
+      "sha256": "140d0e197e0fa3bae482da31a040834b998239ee8a7731f26b90bbdfdf05120b"
+    },
+    {
+      "path": "sprites/stan/idle-6.png",
+      "sha256": "026cfeccd684a4479461ac37791c57dc7f7680542163fb376c069fbc6ffa0f58"
+    },
+    {
+      "path": "sprites/stan/idle-7.png",
+      "sha256": "c000a124d72e633d68f7f86fdb14d88a8b9f460b72087cb9cede02c7919ffe51"
+    },
+    {
+      "path": "sprites/stan/idle-8.png",
+      "sha256": "afce336fb2fef05e3658ae9c8e8abae6feacba5f7e729c8996bf858cfc8c71ed"
+    },
+    {
+      "path": "sprites/stan/idle-9.png",
+      "sha256": "814bba4af944b32d3c34e6607be1c033e6ddd4e08b14aa7cea46955e34c6e783"
+    },
+    {
+      "path": "sprites/tiles/cap-l.png",
+      "sha256": "cd170497588035859246cb6e9c6e510a042d0b0d9be2c2bd12f625297d01f4b4"
+    },
+    {
+      "path": "sprites/tiles/cap-r.png",
+      "sha256": "e0fd57eb78322da002ee2c129670875b409c504bb3e75aae3614ba06518257ce"
+    },
+    {
+      "path": "sprites/tiles/mid-a.png",
+      "sha256": "21c53e4b80e11cdea9d096fbd7e27283e68d55517f5caa8b87906af19f79c74e"
+    },
+    {
+      "path": "sprites/tiles/mid-b.png",
+      "sha256": "17a294e9c396fc68a68f74e3054473cdaa9ba7d1322aca2d675b20191b69276c"
+    },
+    {
+      "path": "sprites/vault-door.png",
+      "sha256": "db7eb068cf1836b719406ee87e70b16937fd64df2682bda9557b22fc1ea1b2fd"
+    },
+    {
+      "path": "voice/bonus-0.mp3",
+      "sha256": "0c767031145a089dc9dbec9235e094736a9522d3c06ab8d42382bc53805fdb74"
+    },
+    {
+      "path": "voice/bonus-1.mp3",
+      "sha256": "0b9c8a678c78c6af59a504482114539100df6dd6de2f1f7d362e441f55d5212a"
+    },
+    {
+      "path": "voice/bonus-2.mp3",
+      "sha256": "e95fc088be75b96be9a738fce5eb16ad8664f91f1fdb2f96470e45481d76d005"
+    },
+    {
+      "path": "voice/endhot-0.mp3",
+      "sha256": "e106536927f71c1bf9e656c3e1218fd185beb8565eed31a697f0d1a5b730c847"
+    },
+    {
+      "path": "voice/endhot-1.mp3",
+      "sha256": "623572079a69bfd2482d5939a80b4fc27fb27892eef7d883976079dc0e788734"
+    },
+    {
+      "path": "voice/endhot-2.mp3",
+      "sha256": "4be5caaca36abe91caba338ef370d2aa0c039b80068d438007f9601447ff66e5"
+    },
+    {
+      "path": "voice/endhot-3.mp3",
+      "sha256": "e61c3889c935bde22450d541a4694c114cfe65100132a586fdb79022d018fde1"
+    },
+    {
+      "path": "voice/endlow-0.mp3",
+      "sha256": "4c924097e5e3ce60003082aed7b015ed4b0ce0ce19f254a06c76b584c25a7fcd"
+    },
+    {
+      "path": "voice/endlow-1.mp3",
+      "sha256": "a1c893922c76f542b08e8d70a4dd80c9f935fdbbf8a3035285e7707a8a22ac3f"
+    },
+    {
+      "path": "voice/endlow-2.mp3",
+      "sha256": "f231b387adff848257e6a3535e20985ec91e9334acfc4dc91e0a901f1c2e3ef2"
+    },
+    {
+      "path": "voice/endlow-3.mp3",
+      "sha256": "273dcd5ea536f6c9f69a11f04feccaadbc47579d914e44083a7ba49b4983f4f8"
+    },
+    {
+      "path": "voice/fire-0.mp3",
+      "sha256": "841e1624118e5f54db018076ed5ad1d985fbeb605cf6597092f9ce318c7b38a1"
+    },
+    {
+      "path": "voice/fire-1.mp3",
+      "sha256": "ac88a3cafece12f21afb605856c34070aa75faa740e3f72c76db5be989d97346"
+    },
+    {
+      "path": "voice/fire-2.mp3",
+      "sha256": "530b507fb5d38b78f363281e2d77daa32a0048d299fd3ddf7cbe97a820bc8cdc"
+    },
+    {
+      "path": "voice/hurry-0.mp3",
+      "sha256": "15f2a2c5fadd32cc65c44b8199da6cd564c0fd60e2c1dadf1d8ff694cf159de4"
+    },
+    {
+      "path": "voice/hurry-1.mp3",
+      "sha256": "7b663068dd55d34b822e0fa9a15f4b72ec9df74867a14e651478afd9bb6ad6a6"
+    },
+    {
+      "path": "voice/hurry-2.mp3",
+      "sha256": "416972814ed0426e410fc18766fc43ed7f3d49890dd80d1e065fc918bc99963e"
+    },
+    {
+      "path": "voice/jackpot-0.mp3",
+      "sha256": "a99b2eac9c77e6068cd4f27cbb0617c3490019e4fba6fed954ed4433a487268f"
+    },
+    {
+      "path": "voice/jackpot-1.mp3",
+      "sha256": "6184a83cc381cc767cc710f4e5d8f874912919ce812608cb46c307127d1425cd"
+    },
+    {
+      "path": "voice/jackpot-2.mp3",
+      "sha256": "3d6b83d84fe9f1847e1cf50e2f8e2181520b5d96a511001d848687dcb1c167f6"
+    },
+    {
+      "path": "voice/miss-0.mp3",
+      "sha256": "d15db7ce034fc4198fb0929ed6d068c6ff4f1de41f3a2ebd5cb6f684b62d8ea0"
+    },
+    {
+      "path": "voice/miss-1.mp3",
+      "sha256": "f689bedbf2fa8a6ef7618b5d5e3b03b6dfb3015202712e2538a79cf2447045a4"
+    },
+    {
+      "path": "voice/miss-2.mp3",
+      "sha256": "93ae1259052fd525ee6a2616c081ec90f2849be9d16e6e304eeb715d4188191d"
+    },
+    {
+      "path": "voice/miss-3.mp3",
+      "sha256": "34e4686509df35eb627c88e89968327585f7a64be33648360198f22ea04ec8a8"
+    },
+    {
+      "path": "voice/ready-0.mp3",
+      "sha256": "14a601a6183269c67b03b12d0763c254363cc7c1bd98409a85e84969a8fd7921"
+    },
+    {
+      "path": "voice/ready-1.mp3",
+      "sha256": "9651dbcabbd6e0c990e490c85332b495283cc71bd9f1687e230514bea987b4db"
+    },
+    {
+      "path": "voice/ready-2.mp3",
+      "sha256": "e3b08125e5c443b43944407dea89d5325549cde4f955fdc61f5509b25bde6c2f"
+    },
+    {
+      "path": "voice/ready-3.mp3",
+      "sha256": "f8a553eba7be93d45c8b2dd9d8114f970bbdeb69957ed40cb0a059ab228161a6"
+    },
+    {
+      "path": "voice/start-0.mp3",
+      "sha256": "aa5da24660194de2320d38b676ea12d65109cae3713abf2611d07aa1f269f963"
+    },
+    {
+      "path": "voice/start-1.mp3",
+      "sha256": "798aee3ddead7f699e317df1763950c628bbb47929871b1e469ceddf0d35033a"
+    },
+    {
+      "path": "voice/start-2.mp3",
+      "sha256": "b15815b34bc8aea6063002a1b3d9ace9ef0c9fb108f5adfc81b5f8783d325cb2"
+    },
+    {
+      "path": "voice/start-3.mp3",
+      "sha256": "f1dc2d6f5ccfe32bfd3044d2ebd1916d761a315225327c044a518c95b2083474"
+    },
+    {
+      "path": "voice/taunt-0.mp3",
+      "sha256": "9a8136aec63503ec6c8ea8f2c6641e05ce76b3736a1a3e9d14c612f35bcda029"
+    },
+    {
+      "path": "voice/taunt-1.mp3",
+      "sha256": "3c66886a5f99550f51aa5d19831bbee016a4e357cb03851909b9b02b967ac5a8"
+    },
+    {
+      "path": "voice/taunt-2.mp3",
+      "sha256": "9beaac3b1fe0a98525a96f0e574f102ab39efd1f6df258d66b9dae3c8a89d417"
+    },
+    {
+      "path": "voice/taunt-3.mp3",
+      "sha256": "98db28875460d228ec2e79fdf937ec5030d358b801a186281667c2f61d973ad8"
+    },
+    {
+      "path": "voice/tease-0.mp3",
+      "sha256": "2faac13566ff9e517921a3a7ed387715fff8219f75f386f9ccbe112bacdffb7f"
+    },
+    {
+      "path": "voice/tease-1.mp3",
+      "sha256": "f382fff910823edf085e9d32c4b8bb14618c09d9d4df9de3b108961e01358e81"
+    },
+    {
+      "path": "voice/tease-2.mp3",
+      "sha256": "c4687a31e83601648af86b3a2e273084920c6666f4094ddb92cabbf787058ee1"
+    },
+    {
+      "path": "voice/tease-3.mp3",
+      "sha256": "68163ac721f920ed52c888546e5931f8a9b044de1a8456c812a33fb1a543ac00"
+    }
+  ]
+}

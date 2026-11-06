@@ -1,0 +1,218 @@
+{
+  "game": "valentine",
+  "source": "KYRECAi/valentine-crush@5610e5ac56f30241fa6fb3c54d28e1a6a85aa1b9",
+  "baseSource": "KYRECAi/valentine-crush@487db4168dfe88abca81913e373c67e6f1354600",
+  "arcadeProtocol": 1,
+  "mode": "arcade",
+  "familyPointsAuthority": false,
+  "assets": [
+    {
+      "path": "art/nova.png",
+      "sha256": "9532c661a27da1358ccd7c0efdf12ee3a9db965abff46e282f8a17d6d6d4d59e"
+    },
+    {
+      "path": "art/stan.png",
+      "sha256": "16ab4f0708d70d219390938bb999b80a1a793610d11e9bbe77eb90a5e976fc41"
+    },
+    {
+      "path": "cover/title.jpg",
+      "sha256": "c7cbcfa6567de81c9f44c1c027e0447afbaef8f11ce57c57bd5c0913d2120ab3"
+    },
+    {
+      "path": "sprites/bg/level-1.jpg",
+      "sha256": "c6ada2c9fa948085a29927c1724be3d249817866846e44fef62141cffef7b763"
+    },
+    {
+      "path": "sprites/family/annie.png",
+      "sha256": "a535203b68d33b197b3997454a1d6f7b1ba54c48182dad0bac6911c286519e14"
+    },
+    {
+      "path": "sprites/family/grandma.png",
+      "sha256": "cfe0ded3eede02c3e274f30709d664630f14228adbd94ab218bf6c88941388ca"
+    },
+    {
+      "path": "sprites/family/kelly.png",
+      "sha256": "6f426c28a783e3901b1fd3faa72d1334f2bda2af11855d65aea72c809cbea274"
+    },
+    {
+      "path": "sprites/family/michael.png",
+      "sha256": "2f05c2a98d7e646c52c91837bcbd9795a74eb0b06c236771bbdad79e6bf96a4c"
+    },
+    {
+      "path": "sprites/fx/petal.png",
+      "sha256": "fab71d9eadf623fd8dcccb376a69ca90b657d55dcd2f3ec69a89b9cda0951a9d"
+    },
+    {
+      "path": "sprites/items/gem.png",
+      "sha256": "be546718a864519e77a6f733491917ae0c1e86ed760de9645599d2c7aad6db9f"
+    },
+    {
+      "path": "sprites/items/heart.png",
+      "sha256": "55d3700456683dff5c81943a7199dde2dd94d2b19c41e960725055760d3063ff"
+    },
+    {
+      "path": "sprites/items/rainbow.png",
+      "sha256": "e0a4d6ded05616bae66f2edd50226289d68a0353579fe7800c92b7b4b1c6dd80"
+    },
+    {
+      "path": "sprites/items/star.png",
+      "sha256": "7804c8977c08832a5e14ef5f27d22e653b35464472e58829b98a2448f41cf9bc"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-1.png",
+      "sha256": "b9f7942ad9493f1055ce7c707f393255974be6da7f0803f349d5d5b2771709ed"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-2.png",
+      "sha256": "5c00de9c78006ecf9e7b327219990d35a432643664bf8a1a9d501cb89b7d1cf5"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-3.png",
+      "sha256": "3dd2c3d2e39eadd3f0f6699d591166a5effe9569c9a645a87892f80e91e65878"
+    },
+    {
+      "path": "sprites/moneybags/kcoin-4.png",
+      "sha256": "966640847d211de51eedb0fd2ace2bbd33251dba2b023c7425a7ca9f73091763"
+    },
+    {
+      "path": "sprites/moneybags/spark-1.png",
+      "sha256": "161a6eb76b1ea789ce304a96cd59cbd693567329b20cc822a8e43a3cc96db60b"
+    },
+    {
+      "path": "sprites/moneybags/spark-2.png",
+      "sha256": "f400b7aebb0f0e1aa49f132b8fe467f6e8c027fbbc650eff7355710f9e868b29"
+    },
+    {
+      "path": "sprites/moneybags/spark-3.png",
+      "sha256": "e8e79c80e587a90b944f2cfefbe02d48479746361a2b84742ac9ff3e3bd20661"
+    },
+    {
+      "path": "sprites/moneybags/spark-4.png",
+      "sha256": "a5acb77bd9be4ce2511fa09a0a7a90d12f66b60f0a4de80a86458d2926e3465d"
+    },
+    {
+      "path": "sprites/stages/01.jpg",
+      "sha256": "d2013e6a1881e81f7b4d9d8f9388c1d957a43c377d0b25e94fc3a4d62ffc7e53"
+    },
+    {
+      "path": "sprites/stages/02.jpg",
+      "sha256": "7f8390e9ed3d8924e656482d1e25ba7bed2eb82406ca54001c0266b8ad3b8b64"
+    },
+    {
+      "path": "sprites/stages/03.jpg",
+      "sha256": "3e4706d8fbbb70a27559f43c05fa7ccbf42ac45500330a75fa0922c8f765e73c"
+    },
+    {
+      "path": "sprites/stages/04.jpg",
+      "sha256": "d789512e940036139e6b1ed001efd45f8a00bb1584947831ce6f1a8d0357556f"
+    },
+    {
+      "path": "sprites/stages/05.jpg",
+      "sha256": "e5213cef895e3f103207e81511740d09fe88f5d0b6189bd7815d3e4af3a5c77a"
+    },
+    {
+      "path": "sprites/stages/06.jpg",
+      "sha256": "5c9f7c07d0e9b299851d8bee7d64ca053bc991aaa5a2758aadcb618b14df9e92"
+    },
+    {
+      "path": "sprites/stages/07.jpg",
+      "sha256": "c715de7e015b038be72ed9c3019ee05c1eda67acc47a948a7ee9f3dfe1afca32"
+    },
+    {
+      "path": "sprites/stages/08.jpg",
+      "sha256": "69f8f67481654e9fd41c5714add9aa4fb5f1eae77c373829e7f6d862f7164575"
+    },
+    {
+      "path": "sprites/stages/09.jpg",
+      "sha256": "01542abcb80886f04d1b6b53382870c8de0328ccef30c0d2fff92579bf990854"
+    },
+    {
+      "path": "sprites/stages/10.jpg",
+      "sha256": "2d63b2607405fa2f79b77c551d0bace2f453db1e6b2297b12e478600febe2086"
+    },
+    {
+      "path": "sprites/stages/11.jpg",
+      "sha256": "acdc85dd872b303f8b7c70e671c96ade4d5f933ae93af20dafdd5c5d60424660"
+    },
+    {
+      "path": "sprites/stages/12.jpg",
+      "sha256": "02876b2fce233b5538f8c2076cb6698262b689658e44d0d7f4b046790215322b"
+    },
+    {
+      "path": "sprites/stages/13.jpg",
+      "sha256": "344f8e33e1e48cdf6512e6248247edbd2c259c9f2615f166a1c5d5396ec92789"
+    },
+    {
+      "path": "sprites/stages/14.jpg",
+      "sha256": "8b16030388f38866780ee013343e4bae9b059f8ef5c1bf0464c691be74a6429c"
+    },
+    {
+      "path": "sprites/stages/15.jpg",
+      "sha256": "fbca9a8fa010bd0727bee3c678822a3da292fccd94f6642c5c6d3fc108aed896"
+    },
+    {
+      "path": "voice/endhot-0.mp3",
+      "sha256": "1257abfbcdb894bb5f7895c77952dd1c235ea2c339e9e7fe44cee54dcce6fb9a"
+    },
+    {
+      "path": "voice/endhot-1.mp3",
+      "sha256": "2ed9e7fd586c623d3fbaee385bce72d17ec7a159392de5f57e4a6865e5081194"
+    },
+    {
+      "path": "voice/endhot-2.mp3",
+      "sha256": "13927440bcd47807ce41e89c8e1c38685d0cc7e98071132dbce943d6bd3e0fd7"
+    },
+    {
+      "path": "voice/endhot-3.mp3",
+      "sha256": "2001e1353411948ff41ca8bd8de720812af8375bc57343dd8a38bca255ea0edd"
+    },
+    {
+      "path": "voice/endlow-0.mp3",
+      "sha256": "8597b5d9e13d7b3cff1ce497aa3fd12b6f9ec64cd6719c17ca53122946a8880f"
+    },
+    {
+      "path": "voice/endlow-1.mp3",
+      "sha256": "690352a339ea91b1565d423bd50d9d36eae81059af13eea5468196ea4c802bcf"
+    },
+    {
+      "path": "voice/endlow-2.mp3",
+      "sha256": "085caad2af4835f9ed1f74a1892cf31ad3e60f6f66efb8b096a55082679500d5"
+    },
+    {
+      "path": "voice/endlow-3.mp3",
+      "sha256": "7baa75ff8c75e48900cd34ddcccf30dcc0e5eeada2816f9097408c03a21cdd79"
+    },
+    {
+      "path": "voice/ready-0.mp3",
+      "sha256": "409a4ce72cf8098398e2d2305bb115031878a4cb8f3e198ac098aad5c810e54a"
+    },
+    {
+      "path": "voice/ready-1.mp3",
+      "sha256": "70cc4bc059357d27811ba5c57c2ef1a20668cd71260ee571e60ed42f569de819"
+    },
+    {
+      "path": "voice/ready-2.mp3",
+      "sha256": "18e478de4750d2b39eb3413db18d0e56aa92f67b90ca7955356b621311bade1d"
+    },
+    {
+      "path": "voice/ready-3.mp3",
+      "sha256": "2f2354f074a036a76a9308e68a35dad79cf31032989a4d08f2968252425b2db1"
+    },
+    {
+      "path": "voice/start-0.mp3",
+      "sha256": "74d2290002bcba6822eb573687533af696f4b45623dab1c27b5355db645d03c9"
+    },
+    {
+      "path": "voice/start-1.mp3",
+      "sha256": "fbc3d526b5a23ee017d0965e0c814eb8124e8b7847f18256aba79955757fc652"
+    },
+    {
+      "path": "voice/start-2.mp3",
+      "sha256": "53348de6a5ca1036cdfc0cda5885807dd8aa2cfd02d21c12407c89b42e276029"
+    },
+    {
+      "path": "voice/start-3.mp3",
+      "sha256": "e44f25613ca3ed42da57db8daa21c7f0959506f36cf49e775a0eed0e04c18e25"
+    }
+  ]
+}

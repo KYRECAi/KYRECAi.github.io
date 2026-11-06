@@ -1,0 +1,32 @@
+{
+  "release": "Guardian arcade \u2014 Moneybags Bonus and Valentine Crush",
+  "date": "2026-11-07",
+  "scope": "Static arcade games only; Guardian account system and Core are not deployed.",
+  "previousPagesCommit": "09262c836cdaae026e84ad7534c2b10f18214f63",
+  "sources": {
+    "moneybags": "683bff1ee5f3c3b2afafac590c377fef369ecba7",
+    "valentine": "5610e5ac56f30241fa6fb3c54d28e1a6a85aa1b9",
+    "guardianIntegration": "d217bd90126f7110e8d5f68e439fb202f5d42ba9"
+  },
+  "urls": {
+    "moneybags": "https://kyrecai.github.io/",
+    "valentine": "https://kyrecai.github.io/valentine/"
+  },
+  "validation": {
+    "gameTests": "14 passed",
+    "guardianContractTests": "3 passed",
+    "guardianExistingSuite": "passed with existing skips",
+    "typeChecks": "all three projects passed",
+    "productionBuilds": "both static game builds and Guardian build passed",
+    "browser": "Start, collect, pause, assets and mobile/tablet layouts checked in browser emulation",
+    "limitations": [
+      "Real iPhone/iPad hardware and native Guardian distribution not tested.",
+      "Full timed-round browser check limited by virtual browser animation timing; completion and results verified in engine and protocol tests."
+    ]
+  },
+  "rewards": {
+    "mode": "arcade",
+    "familyPointsAuthority": false
+  },
+  "recovery": "Restore the previous Pages tree in a new commit; retain release and source history. Original assets and earlier bundles are retained."
+}
