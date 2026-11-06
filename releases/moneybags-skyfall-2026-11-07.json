@@ -1,0 +1,23 @@
+{
+  "release": "Moneybags Skyfall and companion visits",
+  "date": "2026-11-07",
+  "previousPagesCommit": "5275d046f293496ba7a17f95579a861f26aa5d28",
+  "source": "KYRECAi/moneybags-bonus@b708bff8f95c5fd4adeddaa4ec00ddf680e18d5e",
+  "features": [
+    "50 collectible comet coins in five waves, bounded cooldown and live count",
+    "Larger clear Moneybags with existing animated poses",
+    "Pulse, Nova and Stan visit, cheer, fade and return",
+    "Pause/reset and reduced-motion support"
+  ],
+  "validation": {
+    "tests": 11,
+    "typecheck": "pass",
+    "productionBuild": "pass",
+    "scopedLint": "0 errors; 4 existing engine unused-variable warnings",
+    "browser": "320px phone, tablet sizing, comet scoring, parent pause, Nova/Pulse visibility, assets and portrait recovery passed",
+    "physicalIOSDevices": "not verified"
+  },
+  "artwork": "Existing source images only; no asset pixels changed.",
+  "scope": "Moneybags static game only; Valentine, Guardian account deployment and Core unchanged.",
+  "recovery": "Restore the previous Pages tree in a new commit; preserve existing history and old bundles."
+}
