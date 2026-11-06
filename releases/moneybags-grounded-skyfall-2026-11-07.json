@@ -1,0 +1,23 @@
+{
+  "release": "Grounded walking companions and vertical Skyfall",
+  "date": "2026-11-07",
+  "source": "KYRECAi/moneybags-bonus@7cb245ebf985bdf052873730be1ec82ca07b1541",
+  "previousPagesCommit": "4cb56f00f14be2c71362df314786396a379c7fe6",
+  "features": [
+    "Companion walkers use the same stage ground anchor as Moneybags",
+    "Existing leg artwork moves with alternating planted/lifted steps",
+    "50 coins through six evenly spaced fixed vertical lanes",
+    "No horizontal drift, wind influence or sideways bobbing for Skyfall"
+  ],
+  "validation": {
+    "tests": 13,
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "scopedLint": "zero errors; four existing warnings",
+    "browser": "320px phone and tablet ground anchors match exactly; vertical 90-degree coin trails, collection and pause verified",
+    "physicalDevices": "not verified"
+  },
+  "assets": "All 166 existing approved asset hashes unchanged",
+  "scope": "Moneybags only; no Guardian accounts, Core or Valentine changes",
+  "recovery": "Restore previous hosting tree in a new commit; keep history and existing bundles."
+}
