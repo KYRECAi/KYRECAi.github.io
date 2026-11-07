@@ -1,0 +1,24 @@
+{
+  "release": "Moneybags wheel level progression",
+  "date": "2026-11-07",
+  "source": "KYRECAi/moneybags-bonus@057bdd7cef69e3f967a970ee6d71e8387378d374",
+  "previousPagesCommit": "40ffa89ef91833c772bbdbbd59f5f67fc9fe882a",
+  "changes": [
+    "Wheel coins recheck level completion and persist the earned next stage immediately",
+    "One wheel reward per finished round; no skipped levels; campaign cap 15",
+    "Next round waits for the spinning wheel; daily best and roster reflect wheel rewards",
+    "Coin-goal progress label includes wheel coins"
+  ],
+  "validation": {
+    "tests": 20,
+    "reproduction": "Level 2: 13 + 50 wheel coins = 63; Level 3 unlocked and retained by a fresh engine",
+    "gameTypecheck": "passed",
+    "scopedLint": "zero errors; four existing unused-variable warnings",
+    "staticBuild": "passed",
+    "browser": "35 coins plus a 10-coin wheel prize changed Retry Level 1 to Play Level 2; Level 2 retained after reload; next-round action disabled while spinning"
+  },
+  "assets": "All 166 original image/audio hashes unchanged",
+  "scope": "Moneybags static game only; no Core, Guardian account or Valentine changes",
+  "historicalProgress": "Old saves lack previous-round coin totals; missed historical unlocks cannot be safely inferred from lifetime totals",
+  "recovery": "Restore previous hosting tree in a new commit; retain history and bundles."
+}
