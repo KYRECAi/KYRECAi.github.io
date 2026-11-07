@@ -1,0 +1,23 @@
+{
+  "release": "One companion per level; KYREC coin triggers Skyfall",
+  "date": "2026-11-08",
+  "source": "KYRECAi/moneybags-bonus@f304ab7c4c5430e1b935a19d6c14e057acb9e6dd",
+  "previousPagesCommit": "9c00961a832de38fe081d44c23fb5bd47e53a540",
+  "rules": [
+    "One fixed visiting companion per level: Pulse, Nova, Stan repeating",
+    "Only collecting the black K coin starts Skyfall",
+    "No automatic start, streak or jackpot Skyfall",
+    "50 collectible comets retain six fixed vertical lanes"
+  ],
+  "validation": {
+    "tests": 15,
+    "gameTypecheck": "passed",
+    "scopedLint": "zero errors; four existing engine warnings",
+    "staticBuild": "passed",
+    "browser": "No shower on start; one Pulse visitor; KYREC coin then starts six initial comets; pause works",
+    "physicalIOSDevices": "not verified"
+  },
+  "assets": "166 unchanged image/audio hashes",
+  "scope": "Moneybags static game only; no Guardian accounts, Core or Valentine changes",
+  "recovery": "Restore the previous hosting tree in a new commit, retaining history."
+}
