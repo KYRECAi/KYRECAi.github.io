@@ -1,0 +1,28 @@
+{
+  "release": "Moneybags slower touch-PC pace",
+  "date": "2026-11-08",
+  "source": "KYRECAi/moneybags-bonus@633b5fbae229bb4c577a49c83424f9258e74a58b",
+  "previousPagesCommit": "70ba7a33e417c6323ef011f5e7ad561fae164286",
+  "changes": [
+    "Pickup flight at half speed",
+    "Skyfall wave spacing and effect duration adjusted to maintain row gaps",
+    "Responsive tap-area minimum: 64px on desktop, 44px minimum on narrow screens"
+  ],
+  "retainedRules": [
+    "KYREC coin is the sole Skyfall trigger",
+    "50 collectible coins in six straight lanes",
+    "One fixed visiting companion per level",
+    "Round and companion clocks keep real-time pace"
+  ],
+  "validation": {
+    "tests": 16,
+    "gameTypecheck": "passed",
+    "scopedLint": "zero errors; four existing warnings",
+    "staticBuild": "passed",
+    "browser": "Measured 64px KYREC/Skyfall targets; pointer collection and pause passed",
+    "physicalTouchPC": "not verified"
+  },
+  "assets": "All 166 image/audio hashes unchanged",
+  "scope": "Moneybags static game only; no Guardian accounts, Core or Valentine changes",
+  "recovery": "Restore the previous hosting tree in a new commit, retaining history."
+}
