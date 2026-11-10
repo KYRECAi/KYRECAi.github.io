@@ -1,0 +1,10 @@
+{
+  "source": "KYRECAi/moneybags-bonus@461ae8bff54e66da4c5389e5f57aea0c4edc6c2a",
+  "previousHostingCommit": "438ebda9664211e02ff6691ecbf4ed0d992bf3c6",
+  "tests": {
+    "passed": 25,
+    "level7Seeds": 100
+  },
+  "build": "Vite 8.3.7 static production build; existing approved assets retained",
+  "physicalTouchPCTested": false
+}
