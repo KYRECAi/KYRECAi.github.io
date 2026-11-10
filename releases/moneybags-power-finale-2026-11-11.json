@@ -1,0 +1,16 @@
+{
+  "source": "KYRECAi/moneybags-bonus@54716bd4b268a89d306cba062dd5b07613b08d66",
+  "previousHostingCommit": "b6b75348768a3433f9bbcad6bd80641036a7579a",
+  "testsPassed": 29,
+  "typecheck": "passed",
+  "build": "passed",
+  "browser": {
+    "desktopAndPhoneInspected": true,
+    "allCompanionsLoaded": true,
+    "fireworksRendered": true,
+    "reducedMotionPassed": true,
+    "replayPassed": true,
+    "pageErrors": 0
+  },
+  "physicalTouchPCTested": false
+}
