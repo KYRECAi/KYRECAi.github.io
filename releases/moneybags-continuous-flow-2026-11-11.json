@@ -1,0 +1,15 @@
+{
+  "source": "KYRECAi/moneybags-bonus@b741301b384b282ce0c3cefea79c8417a0c9ce42",
+  "previousHostingCommit": "2c83212d3a850b6b13400f81c11d605dd9c4ec87",
+  "testsPassed": 26,
+  "browser": {
+    "engine": "Edge headless",
+    "touchEnabled": true,
+    "level": 7,
+    "launches": 282,
+    "maximumLaunchGapMs": 121.4,
+    "pausePassed": true,
+    "pageErrors": 0
+  },
+  "physicalTouchPCTested": false
+}
