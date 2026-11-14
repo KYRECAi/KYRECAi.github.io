@@ -1,6 +1,6 @@
 {
   "game": "moneybags",
-  "source": "KYRECAi/moneybags-bonus@a736a32cabbc3280630d2d9ab35f016cae3da855",
+  "source": "KYRECAi/moneybags-bonus@17b2f4574086fb83211991628a96bb4ce0b56ac2",
   "baseSource": "KYRECAi/moneybags-bonus@37ba075a4a98f1cd978bab4d837dc652987ad7f9",
   "arcadeProtocol": 1,
   "mode": "arcade",
@@ -673,6 +673,10 @@
     {
       "path": "voice/skyfall-comet.mp3",
       "sha256": "8d45aae83c09da7de1e6e62367b8a7470975a78465017df09bb065d4cd5f486f"
+    },
+    {
+      "path": "voice/stage-thunder.mp3",
+      "sha256": "aa62715890fc381d3727c78cd4b05110bc832ea1985bb38c42549a0af69c7bf6"
     }
   ]
 }
