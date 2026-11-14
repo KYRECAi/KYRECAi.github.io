@@ -1,6 +1,6 @@
 {
   "game": "moneybags",
-  "source": "KYRECAi/moneybags-bonus@17b2f4574086fb83211991628a96bb4ce0b56ac2",
+  "source": "KYRECAi/moneybags-bonus@9f02b4b35336686583835e508b2578fea8b82c8b",
   "baseSource": "KYRECAi/moneybags-bonus@37ba075a4a98f1cd978bab4d837dc652987ad7f9",
   "arcadeProtocol": 1,
   "mode": "arcade",
@@ -677,6 +677,14 @@
     {
       "path": "voice/stage-thunder.mp3",
       "sha256": "aa62715890fc381d3727c78cd4b05110bc832ea1985bb38c42549a0af69c7bf6"
+    },
+    {
+      "path": "voice/overdrive.mp3",
+      "sha256": "e3a5ddca9c14276fcd6fee41237bf02d695d633d999a319a7e6fe3ceee809974"
+    },
+    {
+      "path": "voice/overdrive-ultra.mp3",
+      "sha256": "2bba9a8643eef70b406bf2e5f92e09fd029bad6f2ae3619a9430b8572c8acd3e"
     }
   ]
 }
